@@ -1,0 +1,28 @@
+{
+    "adventure_title": "Adventure 2",
+
+    "0": {
+        "title": "Adventure 2", 
+        "text": "You enter a room",
+        "choices": [
+            {"text": "turn to the left", "next_scene": "1"},
+            {"text": "walk straight", "next_scene": "2"}
+        ]
+    },
+    "1":{
+        "title": "you are now in the room", 
+        "text": "you look at a blue wall",
+        "choices": [
+            {"text": "Exit room", "next_scene": "0"},
+            {"text": "turn room", "next_scene": "2"}
+        ]
+    },
+    "2": {
+        "title": "you turned and see a red wall", 
+        "text": "you see a red wall",
+        "choices": [
+            {"text": "turn back", "next_scene": "1"},
+            {"text": "Exit room", "next_scene": "0"}
+        ]
+    }
+}
