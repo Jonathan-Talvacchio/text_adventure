@@ -1,0 +1,13 @@
+{
+    "adventure_title": "",
+
+    "0": {
+        "title": "",
+         
+        "text": ["",""],
+        "choices": [
+            {"text": "", "next_scene": "0"},
+            {"text": "", "next_scene": "0"}
+        ]
+    }
+}

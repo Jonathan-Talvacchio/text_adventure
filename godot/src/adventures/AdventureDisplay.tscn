@@ -38,9 +38,9 @@ __meta__ = {
 }
 
 [node name="Button2" type="Button" parent="."]
-margin_left = 116.0
+margin_left = 322.0
 margin_top = 79.0
-margin_right = 183.0
+margin_right = 389.0
 margin_bottom = 99.0
 text = "Button 1"
 __meta__ = {
@@ -58,10 +58,9 @@ __meta__ = {
 
 [node name="AdventurePlayer" type="Node" parent="."]
 script = ExtResource( 1 )
-source_file = "res://src/data/test_advent.json"
-[connection signal="button_down" from="Button" to="AdventurePlayer" method="_on_Button_button_down"]
 [connection signal="button_down" from="Button" to="." method="_on_Button_button_down"]
-[connection signal="button_down" from="Button2" to="AdventurePlayer" method="_on_Button2_button_down"]
+[connection signal="button_down" from="Button" to="AdventurePlayer" method="_on_Button_button_down"]
 [connection signal="button_down" from="Button2" to="." method="_on_Button2_button_down"]
+[connection signal="button_down" from="Button2" to="AdventurePlayer" method="_on_Button2_button_down"]
 [connection signal="button_down" from="ButtonBack" to="." method="_on_ButtonBack_button_down"]
 [connection signal="adventure_scene_loaded" from="AdventurePlayer" to="." method="_on_ScenePlayer_adventure_scene_loaded"]

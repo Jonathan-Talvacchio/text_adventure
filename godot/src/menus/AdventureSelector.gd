@@ -19,4 +19,4 @@ func _update(adventure: Dictionary):
 
 
 func _on_ButtonPlay_button_down() -> void:
-	SceneChanger.change_scene(_ADVENTURE_DISPLAY, 0.05)
+	SceneChanger.change_scene(_ADVENTURE_DISPLAY, 0.01)

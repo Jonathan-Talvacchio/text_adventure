@@ -2,7 +2,6 @@
 extends Node
 
 signal adventure_scene_loaded(data)
-export(String, FILE, "*.json") var source_file
 
 var loaded_adventure: Dictionary
 var loaded_adventure_scene: Dictionary

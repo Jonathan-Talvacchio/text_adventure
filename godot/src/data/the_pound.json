@@ -1,0 +1,92 @@
+{
+    "adventure_title": "The Pound",
+
+    "0": {
+        "title": "The Pound", 
+        "text": ["Your life started out rough a stray dog born in the city ",
+            "but at least you have your best friend Carlo another stray, ",
+            "OOO would you look at the time its lunch, Where should we eat?"],
+        "choices": [
+            {"text": "Olive Garden Dumpster", "next_scene": "1"},
+            {"text": "Beg for food at the park", "next_scene": "8"}
+        ]
+    },
+    "1":{
+        "title": "Olive Garden Dumpster", 
+        "text": ["You look at Carlo and decided just because we're not pure breed ",
+            "doesn't mean we don't deserve a fancy meal every now and them. ",
+            "In the middle on grubbing on some half eaten steak the dog catcher races around the corner and managed to get carlo"],
+        "choices": [
+            {"text": "Flee!!", "next_scene": "2"},
+            {"text": "No Dog left behind!", "next_scene": "3"}
+        ]
+    },
+    "2": {
+        "title": "Flee", 
+        "text": ["Whewww you got away but was it worth the price, ",
+            "you spend the rest of your doggo years wondering what happened to Carlo"],
+        "choices": [
+            {"text": "turn back", "next_scene": "1"},
+            {"text": "Exit room", "next_scene": "0"}
+        ]
+    },
+    "3": {
+        "title": "No Dog Left Behind!", 
+        "text": ["You lunge at the Dog Catcher you're not letting him take Carlo with out a fight, ",
+            "but its use now you're also trapped. Carlo thanks you for sticking by him and your both on the way to the pound. ",
+            "you get put into separate cages tension are high every one wont stop BARKING"],
+        "choices": [
+            {"text": "Join the Chaos", "next_scene": "4"},
+            {"text": "Keep Calm but alert", "next_scene": "5"}
+        ]
+    },
+    "4": {
+        "title": "Join the Chaos ", 
+        "text": ["Mob Mentality sets in you decide to join the chaos and before it your the loudest dog in there, ",
+            "Visitors pass you by seems like there is no adoption in your near future"],
+        "choices": [
+            {"text": "turn back", "next_scene": "1"},
+            {"text": "Exit room", "next_scene": "0"}
+        ]
+    },
+    "5": {
+        "title": "Keep calm but alert", 
+        "text": ["You decide to not get caught up in the drama but your no fool ",
+            "you keep your eyes open for potential threats after all its hard out here for a pimp, ",
+            "to your surprise a young boy approaches you he finally convinces his dad to take you out to meet each other"],
+        "choices": [
+            {"text": "Be Friendly", "next_scene": "6"},
+            {"text": "Im no HOUSE DOG!!!", "next_scene": "7"}
+        ]
+    },
+    "6": {
+        "title": "Be Friendly", 
+        "text": ["Hey this boy isn't to bad and he found your favorite spot to be scratched right behind your left ear, ",
+            "before you know it you and the boy are playing and all of sudden Carlo walks in ",
+            "the dad found out you were brought in with a friend he decides to adopt you both CONGRATS YOU FOUND YOUR FOREVER HOME!"],
+        "choices": [
+            {"text": "turn back", "next_scene": "1"},
+            {"text": "Exit room", "next_scene": "0"}
+        ]
+    },
+    "7": {
+        "title": "Im no HOUSE DOG!!!", 
+        "text": ["You Lunge at the boy before the dad can ask the handler to meet you, ",
+            "all the visitors turn to look in fear, looks like adoption is not in your near future"],
+        "choices": [
+            {"text": "turn back", "next_scene": "1"},
+            {"text": "Exit room", "next_scene": "0"}
+        ]
+    },
+    "8": {
+        "title": "Beg for food at the park", 
+        "text": ["You and Carlo decides its a nice day and nice day equal a lot of picnics at the park, ",
+            "sadly no one wants to spare some food you keep at it for about an hour then people start complaining. ",
+            "All of sudden you see the dog catcher van pull up. ",
+            "You and carlo make a run for it but Carlo being a few years older falls behind and gets caught."],
+        "choices": [
+            {"text": "Flee", "next_scene": "2"},
+            {"text": "No Dog Left Behind", "next_scene": "3"}
+        ]
+    }
+}
